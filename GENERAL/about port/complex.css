@@ -1,0 +1,32 @@
+#countries {
+    text-transform: uppercase;
+}
+.head{
+    margin-left: 1vh
+}
+.semi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+    color: rgb(43, 40, 40);
+}
+.register{
+    width: 300px; /* Adjust the width of the form as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: teal;
+    color: lightgray;
+    margin: 50px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+input::placeholder {
+    color: black; /* Replace with the color you want */
+}
+.main{
+    background-color: lightgray;
+}

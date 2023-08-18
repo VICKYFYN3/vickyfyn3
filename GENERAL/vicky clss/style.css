@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.topcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: bold;
+    height: 20%;
+}
+.white{   
+    height: calc(1/6);
+} 
+.darkblue{
+    height: calc(5/12);
+    background-color: rgb(4, 33, 56);
+    color: rgb(98, 131, 141);
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+.lightblue{
+    height: calc(5/12);
+    background-color: rgb(5, 67, 88);
+    color: white;
+    display: flex;
+}
+.signup{
+    background-color: skyblue;
+    color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-style: bold;
+    border-style: groove; 
+    border: skyblue solid;
+}
+.login{
+    background-color: rgb(5, 46, 59);
+    color: white; 
+    border-width: 5px;
+    border-radius: 5px;   
+    font-style: bold;   
+    border-style: groove; 
+    margin: 5px;
+    border: white solid;
+}
+.right-button{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 50px;
+}
+.left-text{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}

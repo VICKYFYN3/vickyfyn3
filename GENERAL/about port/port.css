@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #eee;
+    padding: 1em 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 2em;
+}
+
+.project {
+    margin-bottom: 2em;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: black;
+    color: white;
+}

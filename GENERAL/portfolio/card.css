@@ -1,0 +1,75 @@
+.main-container{ 
+display: flex;
+flex-direction: row;  
+padding: 100px;
+}
+.twitter{
+    border: 2px black solid ;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.twithead{
+    text-align: center;
+}
+.read-more{
+    border-radius: 250px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+}
+.instahead{
+    text-align:center;
+}
+.cardz{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    /* box-shadow: 5px 3px 25px black; */
+}
+.youhead{
+    text-align:center;
+}
+.you{
+    border: 2px black solid ;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+.instagram{
+    border: 2px palevioletred solid ;
+    background: palevioletred;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+.body{
+    font-size: large;
+    padding: 5px;
+    text-align: center;
+}
+.instaread-more{
+    border-radius: 250px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    border: white;
+}
+.logo{
+    width: 20%;
+    object-fit: contain;
+}
+.logo img{
+    width: 100%;
+}

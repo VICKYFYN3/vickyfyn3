@@ -1,0 +1,23 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700PX;
+    background-color: #eb8c8c;
+}
+.form-container {
+    background-color: rgb(172, 105, 105);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.down{
+    display: flex;
+}
+.rr{
+     background-color: #eb8c8c;
+}
